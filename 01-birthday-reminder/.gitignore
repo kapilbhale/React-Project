@@ -1,35 +1,23 @@
-## Corresponding Projects
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-#### useState
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-1. Birthday Reminder
+# testing
+/coverage
 
-#### useEffect and Conditional Rendering
+# production
+/build
 
-2. Tours
-3. Reviews
-4. Accordion
-5. Menu
-6. Tabs
-7. Slider
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-#### Forms
-
-8. Lorem Ipsum Generator
-9. Color Shades Generator
-10. Grocery Bud
-
-#### useRef
-
-11. Navbar
-
-#### useContext
-
-12. Modal and Sidebar
-13. Stripe Menus
-
-#### useReducer and useContext
-
-14. Cart
-
-#### React Router
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
